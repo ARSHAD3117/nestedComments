@@ -1,0 +1,38 @@
+.singleComment{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    padding: 10px;
+    background-color: rgb(213, 238, 245);
+    border:1px solid lightgray;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.commentsContainer{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.singleComment__btns{
+    display: flex;
+    gap: 10px;
+    margin: 5px 0px;
+}
+
+.singleComment__btns--btn:hover{
+    background-color: blue;
+  }
+
+.singleComment__btns--btn{
+    height: 30px;
+    padding: 5px 10px;
+    background-color: #0d68f0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
